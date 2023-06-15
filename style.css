@@ -941,5 +941,8 @@ body.menu-open {
     height: 50px;
     font-size: 14px;;
   }
+  #follower{
+    display: none;
+  }
 }
 /*the end*/
