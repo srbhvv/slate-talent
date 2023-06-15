@@ -690,3 +690,255 @@ body.menu-open {
   z-index: 9998;
   opacity: 0.5;
 }
+
+
+/*адаптив*/
+
+@media screen and (max-width:  450px) {
+  body{
+    width: 412px;
+  }
+  header{
+    height: 140px;
+    width: 412px;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+  }
+  /*header*/
+  .header{
+    width: 412px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /*контейнер*/
+  .container{
+      max-width: 390px;
+  }
+  
+  .text-menu{
+    display: none;
+  }
+  .menubox{
+    margin-top: -50px;
+   }
+  .menu-item {
+    top: 0;
+    margin-left: -120px;
+    font-size: 34px;
+  }
+
+  /*контакт підписка*/
+  .contact-folow{
+    display: none;
+  }
+  /*logo*/
+  .logo{
+    display: none;
+  }
+  /*кнопка GET IN TOUCH →*/
+
+  .button-one{
+    margin-right: 90px;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 12px;
+
+  }
+  /*===================контент=====================*/
+  
+  /*перша секція*/
+  .section1{
+    max-width: 412px;
+  }
+  .section-1{
+    height: 100px;
+    width: 412px;
+  }
+  .section-1-text{
+    height: 90px;
+  }
+  .asgard{
+    padding: 0;
+    font-size: 55px;
+  }
+  .asgard-text{
+    margin-right: 90px;
+    font-size: 15px;
+  }
+  .Academy{
+    padding: 0;
+    margin-right: 90px;
+    font-size: 55px;
+  }
+  
+  .your, .up{
+    padding: 0;
+    font-size: 55px;
+  }
+  .text-your{
+    justify-content: start;
+  }
+  .your{
+    padding-right: 15px;
+  }
+  .strilka{
+   display: none;
+  }
+  
+  /*друга сторінка*/
+  .section-2{
+    width: 412px;
+    padding-bottom: 0px;
+  }
+  .creating{
+    width: 250px;
+  }
+  .creating-text{
+    font-size: 25px;
+  }
+  
+  .lorem{
+    display: flex;
+    justify-content: right;
+    margin-top: 20px;
+  }
+  .lorem-text{
+    margin-right: 90px;
+    width: 300px;
+    padding: 0;
+    font-size: 20px;
+  }
+  
+  .images {
+    position: relative;
+  }
+  .image1{
+    margin-top: 20px;
+    max-width: 300px;
+  }
+  .image2 {
+    position: absolute;
+    top: 220px;
+    left: 0;
+    width: 300px;
+  }
+  
+  /*третя сторінка*/
+  .section-3{
+    padding-top: 200px;
+  }
+  .howWeWork{
+    padding-top: 10px;
+  }
+  .howWe{
+    font-size: 35px;
+    }
+  .image-work{
+    padding-top: 0;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .image3{
+    width: 300px;
+    margin-left: -90px;
+  }
+  
+  .work-1{
+    margin-left: 35px;
+    font-size: 50px;
+  }
+  .work-2{
+    width: 350px;
+    margin-right: 50px;
+    font-size: 17px;
+    margin-left: 0;
+  }
+  
+  
+  /*четверта сторінка*/
+  .section-4{
+    width: 412px;
+  }
+  .price-text-1{
+    margin-top: 10px;
+    font-size: 25px;
+  }
+  .price-text-2{
+    margin-top: 10px;
+    font-size: 25px;
+    padding-left: 10px;
+  }
+  
+  /*п'ята сторінка*/
+  .FUNCTIONS{
+    padding-top: 50px;
+  }
+  .text-chouse-1{
+    padding-top: 30px;
+    font-size: 45px;
+  }
+  .text-chouse-2{
+    display: none;
+  }
+  .text-chouse-3{
+    width: 410px;
+    padding: 10px 40px 0 0; /*зверху | зправа |знизу | зліва*/
+    font-size: 20px;
+  }
+
+  .text-chouse-4{
+    font-size: 50px;
+    margin: 10px 170px 0 0;
+  }
+  
+  /*шоста сторінка*/
+  .special-text{
+    font-size: 20px;
+  }
+  .special-list{
+    height: 50px;
+    gap: 10px;
+  }
+  .text-list{
+    margin-left: 10px;
+    font-size: 15px;
+  }
+  .link-list{
+    font-size: 25px;
+  }
+  
+  /*сьома сторінка*/
+  .contacts{
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-text-1, .contact-text-2{
+    font-size: 25px;
+  }
+  .academy-text{
+    display: none;
+  }
+  .contact-text-3{
+    text-align: left;
+    font-size: 25px;
+  }
+  .contact{
+    margin-top: 30px;
+    margin-left: 200px;
+  }
+  .folow{
+    margin-left: 185px;
+  }
+  .strilka-link{
+    display: none;
+  }
+  .last-text{
+    height: 50px;
+    font-size: 14px;;
+  }
+}
